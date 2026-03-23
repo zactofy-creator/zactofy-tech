@@ -23,7 +23,11 @@ const timesfont = localFont({
 export const metadata = {
   title: "Website Development Company in India | Zactofy",
   description:
-    "Zactofy helps businesses grow with website development, AI solutions and digital marketing services."
+    "Zactofy helps businesses grow with website development, AI solutions and digital marketing services.",
+
+  verification: {
+    google: "mdGOPp6KpPzj3HAFKeh4r3VF09iO-wL0e9If0en2qi4",
+  },
 };
 
 export default function RootLayout({
