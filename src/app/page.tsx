@@ -78,7 +78,7 @@ export default function Home() {
 
     {/* card */}
     <div className="bg-white p-8 rounded-3xl shadow-sm hover:shadow-2xl transition duration-300">
-      <div className="w-14 h-14 bg-[#4b5ae4] rounded-2xl mb-6"></div>
+      {/* <div className="w-14 h-14 bg-[#4b5ae4] rounded-2xl mb-6"></div> */}
       <h3 className="text-2xl font-semibold text-gray-900">Website Development</h3>
       <p className="text-gray-600 mt-3">
         Modern, fast and conversion-focused websites that help your business
@@ -87,7 +87,7 @@ export default function Home() {
     </div>
 
     <div className="bg-white p-8 rounded-3xl shadow-sm hover:shadow-2xl transition duration-300">
-      <div className="w-14 h-14 bg-green-500 rounded-2xl mb-6"></div>
+      {/* <div className="w-14 h-14 bg-green-500 rounded-2xl mb-6"></div> */}
       <h3 className="text-2xl font-semibold text-gray-900">Social Media Marketing</h3>
       <p className="text-gray-600 mt-3">
         Strategic content and paid advertising campaigns that increase brand
@@ -96,7 +96,7 @@ export default function Home() {
     </div>
 
     <div className="bg-white p-8 rounded-3xl shadow-sm hover:shadow-2xl transition duration-300">
-      <div className="w-14 h-14 bg-orange-500 rounded-2xl mb-6"></div>
+      {/* <div className="w-14 h-14 bg-orange-500 rounded-2xl mb-6"></div> */}
       <h3 className="text-2xl font-semibold text-gray-900">Performance Marketing</h3>
       <p className="text-gray-600 mt-3">
         Data-driven ad campaigns on Google and Meta that deliver measurable ROI
@@ -257,13 +257,13 @@ export default function Home() {
   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
 
     {/* card */}
-    <div className=" p-8 rounded-3xl shadow-sm hover:shadow-xl transition duration-300">
+    <div className="bg-[#f8fafc] p-8 rounded-3xl shadow-sm hover:shadow-xl transition duration-300">
       <p className="text-gray-700">
         “Zactofy completely transformed our online presence. Within 3 months,
         our leads increased significantly and sales improved.”
       </p>
       <div className="flex items-center gap-4 mt-6">
-        <img src="/client1.jpg" className="w-12 h-12 rounded-full object-cover"/>
+        {/* <img src="/client1.jpg" className="w-12 h-12 rounded-full object-cover"/> */}
         <div>
           <h4 className="font-semibold text-gray-900">Rahul Sharma</h4>
           <p className="text-gray-500 text-sm">Business Owner</p>
@@ -277,7 +277,7 @@ export default function Home() {
         improved and brand awareness grew fast.”
       </p>
       <div className="flex items-center gap-4 mt-6">
-        <img src="/client2.jpg" className="w-12 h-12 rounded-full object-cover"/>
+        {/* <img src="/client2.jpg" className="w-12 h-12 rounded-full object-cover"/> */}
         <div>
           <h4 className="font-semibold text-gray-900">Ankit Verma</h4>
           <p className="text-gray-500 text-sm">Startup Founder</p>
@@ -291,7 +291,7 @@ export default function Home() {
         improved a lot after working with Zactofy.”
       </p>
       <div className="flex items-center gap-4 mt-6">
-        <img src="/client3.jpg" className="w-12 h-12 rounded-full object-cover"/>
+        {/* <img src="/client3.jpg" className="w-12 h-12 rounded-full object-cover"/> */}
         <div>
           <h4 className="font-semibold text-gray-900">Priya Singh</h4>
           <p className="text-gray-500 text-sm">Marketing Manager</p>
